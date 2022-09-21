@@ -4,7 +4,7 @@ console.log("There are " + n + "  Words")
 var words=[]
 for(let i=0;i<n;i++)
 {
-    let word=readline.question("Enter the $(words[i]) :")
+    let word=readline.question("Enter the word :")
     words.push(word)
 }
 
@@ -22,4 +22,5 @@ for (let index = 0; index < words.length; index++) {
     count[element] = 1
   }
 }
+console.log(Object.keys(count).length)
 console.log(count)
