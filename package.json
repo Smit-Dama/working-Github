@@ -1,11 +1,12 @@
 {
   "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
     "readline-sync": "^1.4.10"
   },
   "name": "unicode",
   "version": "1.0.0",
   "main": "Task_1.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
